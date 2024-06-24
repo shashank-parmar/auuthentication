@@ -73,7 +73,7 @@ const Home: React.FC = () => {
     <section className="mx-auto w-full max-w-7xl px-4 py-4">
       <div className="flex flex-col space-y-4 md:flex-row md:items-center md:justify-between md:space-y-0  ">
         <div className="flex">
-          <h2 className="text-lg font-semibold mr-8">Students</h2>
+          <h2 className="text-lg font-semibold mr-8">All students</h2>
           <input
             type="text"
             placeholder="Search Student"
@@ -102,25 +102,25 @@ const Home: React.FC = () => {
                       scope="col"
                       className="px-4 py-3.5 text-left text-sm font-normal text-gray-700 font-extrabold"
                     >
-                      <span>FirstName</span>
+                      <span>First name</span>
                     </th>
                     <th
                       scope="col"
                       className="px-10 py-3.5 text-left text-sm font-normal text-gray-700 font-extrabold"
                     >
-                      <span>LastName</span>
+                      <span>Last name</span>
                     </th>
                     <th
                       scope="col"
                       className="px-12 py-3.5 text-left text-sm font-normal text-gray-700 font-extrabold"
                     >
-                      Email
+                      Email Id
                     </th>
                     <th
                       scope="col"
                       className="px-4 py-3.5 text-left text-sm font-normal text-gray-700 font-extrabold"
                     >
-                      Mobile
+                      Phone no
                     </th>
                   </tr>
                 </thead>

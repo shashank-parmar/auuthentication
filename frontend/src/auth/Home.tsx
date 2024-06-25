@@ -102,13 +102,13 @@ const Home: React.FC = () => {
                       scope="col"
                       className="px-4 py-3.5 text-left text-sm font-normal text-gray-700 font-extrabold"
                     >
-                      <span>First name</span>
+                      <span>First Name</span>
                     </th>
                     <th
                       scope="col"
                       className="px-10 py-3.5 text-left text-sm font-normal text-gray-700 font-extrabold"
                     >
-                      <span>Last name</span>
+                      <span>Last Name</span>
                     </th>
                     <th
                       scope="col"
@@ -120,7 +120,7 @@ const Home: React.FC = () => {
                       scope="col"
                       className="px-4 py-3.5 text-left text-sm font-normal text-gray-700 font-extrabold"
                     >
-                      Phone no
+                      Mobile No.
                     </th>
                   </tr>
                 </thead>
